@@ -9014,10 +9014,24 @@ input[type=range].focused:focus:not(.active)::-ms-thumb {
   padding: 0 20px;
 }
 
-.profilePic {
+#profilePic {
 margin: 35px;
 border: 10px solid #ddd;
 border-radius: 4px;
+}
+
+#aboutP{
+  margin:35px;
+  border: 10px solid #ddd;
+  border-radius: 4px;
+  padding: 41px;
+  font-size: large;
+}
+
+.icons{
+  border-radius:50%;
+  max-width: 50%;
+  height:auto;
 }
 
 /* Media Queries */
