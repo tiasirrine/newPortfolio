@@ -9030,8 +9030,14 @@ border-radius: 4px;
 
 .icons{
   border-radius:50%;
-  max-width: 50%;
+  margin-top: 50px;
   height:auto;
+}
+
+@media only screen and (max-width:667px) {
+  .icons {
+    max-width: 100%;
+  }
 }
 
 /* Media Queries */
